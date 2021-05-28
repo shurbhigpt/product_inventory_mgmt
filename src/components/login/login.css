@@ -1,0 +1,35 @@
+.login-div {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #dbddbd;
+  border-radius: 10px;
+  width: 300px;
+  height: 300px;
+  background-color: white;
+  margin: 0 auto;
+  padding: 20px;
+  justify-content: space-evenly;
+  margin-top: 10vh;
+}
+.logo-div {
+  align-self: center;
+}
+.button {
+  margin-top: 8px;
+  width: 100%;
+  border-radius: 5px;
+  padding: 5px;
+  border: none;
+  color: white;
+  font-family: "Open Sans Condensed", sans-serif;
+  background-color: #6200ea;
+  cursor: pointer;
+}
+.error-msg {
+  width: 70;
+  font-family: "Open Sans Condensed", sans-serif;
+  background-color: #fafafa;
+  color: red;
+  margin-left: 7px;
+  font-size: small;
+}
